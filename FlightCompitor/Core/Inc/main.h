@@ -57,6 +57,22 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BMI_ACCEL_INT1_Pin GPIO_PIN_3
+#define BMI_ACCEL_INT1_GPIO_Port GPIOA
+#define BMI_ACCEL_INT2_Pin GPIO_PIN_4
+#define BMI_ACCEL_INT2_GPIO_Port GPIOA
+#define BMI_GYRO_CS_Pin GPIO_PIN_5
+#define BMI_GYRO_CS_GPIO_Port GPIOA
+#define BMI_GYRO_INT1_Pin GPIO_PIN_6
+#define BMI_GYRO_INT1_GPIO_Port GPIOA
+#define BMI_GYRO_INT2_Pin GPIO_PIN_7
+#define BMI_GYRO_INT2_GPIO_Port GPIOA
+#define ADXL_INT2_Pin GPIO_PIN_12
+#define ADXL_INT2_GPIO_Port GPIOB
+#define ADXL_INT1_Pin GPIO_PIN_13
+#define ADXL_INT1_GPIO_Port GPIOB
+#define ADXL_CS_Pin GPIO_PIN_14
+#define ADXL_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
