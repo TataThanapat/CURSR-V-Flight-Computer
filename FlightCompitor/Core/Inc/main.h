@@ -57,22 +57,24 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define BMI_ACCEL_INT1_Pin GPIO_PIN_3
-#define BMI_ACCEL_INT1_GPIO_Port GPIOA
-#define BMI_ACCEL_INT2_Pin GPIO_PIN_4
-#define BMI_ACCEL_INT2_GPIO_Port GPIOA
-#define BMI_GYRO_CS_Pin GPIO_PIN_5
-#define BMI_GYRO_CS_GPIO_Port GPIOA
-#define BMI_GYRO_INT1_Pin GPIO_PIN_6
-#define BMI_GYRO_INT1_GPIO_Port GPIOA
-#define BMI_GYRO_INT2_Pin GPIO_PIN_7
-#define BMI_GYRO_INT2_GPIO_Port GPIOA
-#define ADXL_INT2_Pin GPIO_PIN_12
-#define ADXL_INT2_GPIO_Port GPIOB
-#define ADXL_INT1_Pin GPIO_PIN_13
-#define ADXL_INT1_GPIO_Port GPIOB
-#define ADXL_CS_Pin GPIO_PIN_14
-#define ADXL_CS_GPIO_Port GPIOB
+#define ICM_INT1_Pin GPIO_PIN_10
+#define ICM_INT1_GPIO_Port GPIOE
+#define ICM_INT2_Pin GPIO_PIN_11
+#define ICM_INT2_GPIO_Port GPIOE
+#define ICM_CS_Pin GPIO_PIN_12
+#define ICM_CS_GPIO_Port GPIOE
+#define MS5607_CS_Pin GPIO_PIN_8
+#define MS5607_CS_GPIO_Port GPIOD
+#define ADXL_CS_Pin GPIO_PIN_9
+#define ADXL_CS_GPIO_Port GPIOD
+#define ADXL_INT1_Pin GPIO_PIN_10
+#define ADXL_INT1_GPIO_Port GPIOD
+#define ADXL_INT2_Pin GPIO_PIN_11
+#define ADXL_INT2_GPIO_Port GPIOD
+#define MAG_SCL_Pin GPIO_PIN_12
+#define MAG_SCL_GPIO_Port GPIOD
+#define MAG_SDA_Pin GPIO_PIN_13
+#define MAG_SDA_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 
