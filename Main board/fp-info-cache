@@ -1,4 +1,4 @@
-25079382227463203
+25084701736997929
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57281,6 +57281,20 @@ BGA-153_L13.0-W11.5-P0.50-TL_KLM8G1GEME-B041
 153
 153
 EasyEDA
+BUZ-SMD_4P-L7.5-W7.5-BR
+
+
+0
+4
+4
+EasyEDA
+BUZ-TH_BD14.0-P5.00-D0.7-FD
+
+
+0
+2
+2
+EasyEDA
 C0402
 
 
@@ -57315,6 +57329,13 @@ CAP-SMD_L3.2-W1.6
 0
 2
 2
+EasyEDA
+CONN-TH_4P-P5.08_PA001-4P
+
+
+0
+4
+4
 EasyEDA
 CONN-TH_XT30PW-M
 
