@@ -1,4 +1,11 @@
-25084701736997929
+25088249851554450
+1x04Molex
+CONN_SD-43045-010_04_MOL
+
+430450427 
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57581,6 +57588,13 @@ SW-TH_SS12D07VG4
 0
 5
 5
+EasyEDA
+TF-SMD_TF-015
+
+
+0
+15
+13
 EasyEDA
 TO-126_L7.5-W2.5-P2.3-B
 
