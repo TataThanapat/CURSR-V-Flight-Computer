@@ -20583,7 +20583,7 @@
 	)
 	(global_label "ADXL_INT1"
 		(shape input)
-		(at 93.345 86.995 0)
+		(at 78.74 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20593,7 +20593,7 @@
 		)
 		(uuid "553cbf1e-954e-4878-966b-8aa44b6067d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0064 86.995 0)
+			(at 91.4014 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49062,10 +49062,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fca93ba-c564-4d40-9bf1-f9d812a5e726")
+			(uuid "4fca93ba-c564-4d40-9bf1-f9d812a5e727")
 		)
 		(pin "2"
-			(uuid "5e385bf6-a825-40ec-a612-29361cea8fea")
+			(uuid "5e385bf6-a825-40ec-a612-29361cea8feb")
 		)
 		(instances
 			(project ""
