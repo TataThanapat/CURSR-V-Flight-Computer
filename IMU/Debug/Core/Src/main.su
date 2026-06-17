@@ -1,0 +1,8 @@
+../Core/Src/main.c:87:6:SystemClock_Config	88	static
+../Core/Src/main.c:127:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:159:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:182:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:207:13:Error_Trap	8	static
+../Core/Src/main.c:219:16:imu_data_is_suspect	40	static
+../Core/Src/main.c:235:16:mag_data_is_suspect	32	static
+../Core/Src/main.c:253:5:main	24	static

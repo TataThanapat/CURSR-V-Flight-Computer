@@ -193,6 +193,7 @@
         0.5,
         0.75,
         1.0,
+        1.25,
         2.0,
         2.5
       ],
@@ -506,8 +507,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/User/Desktop/CURFA-VMANU/",
-      "pos_files": "",
+      "plot": "C:/Users/User/Desktop/PCBS to Manu/PROUD/",
+      "pos_files": "C:/Users/User/Desktop/PCBS to Manu/PROUDEE/",
       "specctra_dsn": "",
       "step": "../../../../Downloads/IREC2026FlightCom3D.step",
       "svg": "",

@@ -250,6 +250,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EASYEDA:MS5607-02BA03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MS5607-02BA03"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SENSOR-SMD_MS560702BA03-50"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C9900023641"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MS5607-02BA03_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "PS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SDI/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:ADXL375BCCZ-RL7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3624,10 +3850,6 @@
 	(no_connect
 		(at 88.265 54.61)
 		(uuid "45c4395c-0040-40af-b117-3ef341684f62")
-	)
-	(no_connect
-		(at 318.135 70.485)
-		(uuid "5599f221-0d7a-455d-93ee-2caef126fd06")
 	)
 	(no_connect
 		(at 147.955 201.295)
@@ -7952,7 +8174,7 @@
 			)
 		)
 		(property "Digikey Part No." "311-10.0KLRCT-ND"
-			(at 154.305 203.835 0)
+			(at 154.94 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,6 +9374,101 @@
 			(project ""
 				(path "/1f0f75a1-1d31-43c9-b0ad-8555040f61e7/e2fd82b4-49f6-453e-97db-cfd425c520a6"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:MS5607-02BA03")
+		(at 215.9 121.285 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a36f7fc-2d8b-4c97-a323-a6812a68b883")
+		(property "Reference" "U8"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS5607-02BA03"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SENSOR-SMD_MS560702BA03-50"
+			(at 215.9 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C9900023641"
+			(at 215.9 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4e2d82b-e1d1-4c5c-be81-ee6c958677de")
+		)
+		(pin "3"
+			(uuid "6bbef9f5-e386-4f26-8bd1-502cff3b4662")
+		)
+		(pin "2"
+			(uuid "a117f968-5db6-4162-8d3b-027532fc0d53")
+		)
+		(pin "4"
+			(uuid "65c442d4-d5d0-4fc7-bfbd-f39f556c3942")
+		)
+		(pin "8"
+			(uuid "19f0ae47-79a1-40b3-bebc-2c8c2a16d8c1")
+		)
+		(pin "7"
+			(uuid "259cfb4c-c1d4-4fc3-bb07-2d73b6456023")
+		)
+		(pin "6"
+			(uuid "0a3ee14d-7067-4fe8-8a6a-fb9715831b19")
+		)
+		(pin "5"
+			(uuid "aa3c37d6-2422-40fd-9e8d-9cb454125d4d")
+		)
+		(instances
+			(project ""
+				(path "/1f0f75a1-1d31-43c9-b0ad-8555040f61e7/e2fd82b4-49f6-453e-97db-cfd425c520a6"
+					(reference "U8")
 					(unit 1)
 				)
 			)

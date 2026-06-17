@@ -1,0 +1,4 @@
+../Core/Src/mmc5983ma.c:13:16:mmc_write_reg	40	static
+../Core/Src/mmc5983ma.c:27:16:mmc_read_reg	48	static
+../Core/Src/mmc5983ma.c:41:9:MMC5983MA_Init	24	static
+../Core/Src/mmc5983ma.c:120:9:MMC5983MA_ReadData	56	static

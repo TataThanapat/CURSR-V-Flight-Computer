@@ -1,0 +1,7 @@
+../Core/Src/icm45686.c:13:20:icm_cs_low	1
+../Core/Src/icm45686.c:18:20:icm_cs_high	1
+../Core/Src/icm45686.c:27:9:ICM45686_WriteReg	2
+../Core/Src/icm45686.c:46:9:ICM45686_ReadReg	3
+../Core/Src/icm45686.c:65:16:icm_read_burst	3
+../Core/Src/icm45686.c:85:9:ICM45686_Init	10
+../Core/Src/icm45686.c:156:9:ICM45686_ReadSensors	3
